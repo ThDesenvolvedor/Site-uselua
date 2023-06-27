@@ -10,37 +10,41 @@
 </head>
 
 <body>
-  <header>
-    <main class="container">
-      <!-- Logo -->
-      <section class="row">
-        <img class="logo" src="./images/WhatsApp_Image_2023-06-25_at_15.26.12-removebg-preview.png" alt="logo">
-      </section>
-      <!-- End Logo -->
+  <!-- Títulos -->
+  <main class="container">
 
-      <!-- Títulos -->
-      <article class="title">
+    <!-- Logo -->
+    <div>
+      <img id="logo" src="./images/WhatsApp_Image_2023-06-25_at_15.26.12-removebg-preview.png" alt="logo">
+    </div>
+    <!-- End Logo -->
 
-        <h1> Venha aumentar sua autoestima! </h1>
-        <h2> Conte com minha ajuda para isso. </h2>
+    <!-- Imagens de Back -->
+    <div class="text-img">
+      <img id="photo" src="./images/WhatsApp Image 2023-06-26 at 12.23.01.jpeg" alt="photo">
 
-        <p>
-          Atendimento na sua casa
-        </p>
+      <div class="textdiv">
+        <h1><i id="spacetext" class="fas fa-search"></i> Venha aumentar sua autoestima! </h1>
+        <h2><i id="spacetext2" class="fas fa-search"></i> Conte com minha ajuda para isso. </h2>
+      </div>
+      <!-- End Imagens de Back -->
 
-        <!-- Button -->
-        <form>
-          <input class="btn btn-redes" type="text" id="url">
-          <input type="button" id="btn" value="Fale Comigo !"
-            onClick="javascript: window.open(document.getElementById('url').value);" />
-        </form>
-        <!-- End Button -->
+      <!-- Elemento color-box -->
+      <div id="color-box"></div>
+      <!-- Fim do color-box -->
 
-      </article>
-      <!-- End Títulos -->
-    </main>
-  </header>
+      <!-- Button -->
+      <form>
+        <input class="btn btn-redes" type="text" id="url">
+        <input type="button" id="btn" value="Fale Comigo !"
+          onClick="javascript: window.open(document.getElementById('url').value);" />
+      </form>
+      <!-- End Button -->
 
+    </div>
+    <!-- End Títulos -->
+
+  </main>
 </body>
 
 </html>
